@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap');
+
+body{
+    background: #141518 !important;
+    color: #84A425 !important
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.title{
+    margin-top: 150px;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.pom-card{
+    background: #20252B !important;
+    padding: 10px;
+    border-radius: 20px !important;
+}
+
+.settings{
+    display: flex;
+    justify-content: space-between;
+}
+
+.break{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.break-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.session{
+    @extend .break;
+}
+.session-content{
+    @extend .break-content;
+}
+
+.clock-player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.clock{
+    background: #340201;
+    border: 10px inset #84A425;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.timer{
+    color: #AA6D06;
+    font-family: 'Stardos Stencil', cursive;
+    margin-top: 10px;
+    // letter-spacing: 5px;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 80px;
+}
